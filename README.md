@@ -7,9 +7,7 @@
 
 > Demo code of blog post from [https://sahansera.dev/understanding-websockets-with-aspnetcore-5/](https://sahansera.dev/understanding-websockets-with-aspnetcore-5/)
 
-### 🏠 [Homepage](sahansera.dev)
-
-### ✨ [Demo](sahansera.dev)
+### 🏠 [Homepage](https://sahansera.dev)
 
 ## Usage
 
