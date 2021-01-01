@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 [![Twitter: Sahan91](https://img.shields.io/twitter/follow/Sahan91.svg?style=social)](https://twitter.com/Sahan91)
 
-![](https://sahansera.dev/static/3ca403c56afd23af37206f10fe96ff47/61d5f/understanding-websockets-with-aspnetcore-1.jpg | width=80)
+![](https://sahansera.dev/static/3ca403c56afd23af37206f10fe96ff47/4b190/understanding-websockets-with-aspnetcore-1.jpg)
 
 > Demo code of blog post from [https://sahansera.dev/understanding-websockets-with-aspnetcore-5/](https://sahansera.dev/understanding-websockets-with-aspnetcore-5/)
 
