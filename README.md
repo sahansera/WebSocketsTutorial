@@ -1,7 +1,7 @@
 # Welcome to Understanding WebSockets with ASP.NET Core Tutorial 👋
 [![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](sahansera.dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
-[![Twitter: Sahan91](https://img.shields.io/twitter/follow/Sahan91.svg?style=social)](https://twitter.com/Sahan91)
+[![Twitter: _SahanSera](https://img.shields.io/twitter/follow/_SahanSera.svg?style=social)](https://twitter.com/_SahanSera)
 
 ![](https://sahansera.dev/static/3ca403c56afd23af37206f10fe96ff47/4b190/understanding-websockets-with-aspnetcore-1.jpg)
 
@@ -33,8 +33,8 @@ Please share this Repository within your developer community, if you think that 
 👤 **Sahan Serasinghe**
 
 * Website: https://sahansera.dev
-* Twitter: [@Sahan91](https://twitter.com/Sahan91)
-* Github: [@sahan91](https://github.com/sahan91)
+* Twitter: [@_SahanSera](https://twitter.com/_SahanSera)
+* Github: [@sahansera](https://github.com/sahansera)
 * LinkedIn: [@sahanserasinghe](https://linkedin.com/in/sahanserasinghe)
 
 ## Contributing
