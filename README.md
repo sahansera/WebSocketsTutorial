@@ -1,4 +1,4 @@
-# Understanding WebSockets on .NET Core
+# Understanding WebSockets on .NET
 
 [![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](sahansera.dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
