@@ -1,4 +1,5 @@
 using System;
+using System.Net;
 using System.Net.WebSockets;
 using System.Text;
 using System.Threading;
@@ -12,6 +13,7 @@ namespace WebSocketsTutorial.Controllers
     [Route("[controller]")]
     public class WebSocketsController : ControllerBase
     {
+        private new const int BadRequest = ((int)HttpStatusCode.BadRequest);
         private readonly ILogger<WebSocketsController> _logger;
 
         public WebSocketsController(ILogger<WebSocketsController> logger)
@@ -30,7 +32,7 @@ namespace WebSocketsTutorial.Controllers
           }
           else
           {
-              HttpContext.Response.StatusCode = 400;
+              HttpContext.Response.StatusCode = BadRequest;
           }
         }
         
@@ -50,6 +52,7 @@ namespace WebSocketsTutorial.Controllers
                 _logger.Log(LogLevel.Information, "Message received from Client");
                 
             }
+
             await webSocket.CloseAsync(result.CloseStatus.Value, result.CloseStatusDescription, CancellationToken.None);
             _logger.Log(LogLevel.Information, "WebSocket connection closed");
         }
