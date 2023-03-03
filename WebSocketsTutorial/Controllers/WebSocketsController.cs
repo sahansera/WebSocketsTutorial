@@ -50,7 +50,6 @@ namespace WebSocketsTutorial.Controllers
 
                 result = await webSocket.ReceiveAsync(new ArraySegment<byte>(buffer), CancellationToken.None);
                 _logger.Log(LogLevel.Information, "Message received from Client");
-                
             }
 
             await webSocket.CloseAsync(result.CloseStatus.Value, result.CloseStatusDescription, CancellationToken.None);
