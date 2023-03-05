@@ -48,6 +48,7 @@ namespace WebSocketsTutorial.Controllers
                 await webSocket.SendAsync(new ArraySegment<byte>(serverMsg, 0, serverMsg.Length), result.MessageType, result.EndOfMessage, CancellationToken.None);
                 _logger.Log(LogLevel.Information, "Message sent to Client");
 
+                buffer = new byte[1024 * 4];
                 result = await webSocket.ReceiveAsync(new ArraySegment<byte>(buffer), CancellationToken.None);
                 _logger.Log(LogLevel.Information, "Message received from Client");
             }
